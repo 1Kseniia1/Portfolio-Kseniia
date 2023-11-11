@@ -55,6 +55,7 @@ p {
 }
 .content {
   margin: 30px;
+  padding-top: 10px;
 }
 .content-container {
   padding: 60px 20px;
@@ -76,10 +77,15 @@ p {
 .content p {
   font-size: 14px;
 }
-img.patricia {
+img.project-images {
+  padding-top: 160px;
+}
+
+img.coding-photo {
   border-radius: 20px;
   flex-shrink: 0;
   border: 1px solid;
+  width: 1000px;
 }
 .btn-branding {
   background-color: var(--branding-color);
@@ -99,7 +105,13 @@ img.patricia {
 }
 .project-description {
   padding: 120px 60px;
+  padding-bottom: 10px;
 }
+.projects{
+  border: 1px solid;
+}
+
+
 .logo {
   max-height: 40px;
 }
